@@ -48,7 +48,7 @@ while round:
     loopar()
     # Apertar play
     while inc_pos is None:
-        inc_pos = pyautogui.locateOnScreen('imagens/inc.png', region=(regiao_inc), confidence=0.7,)     
+        inc_pos = pyautogui.locateOnScreen('imagens/inc.png', region=(regiao_inc), confidence=0.7)     
         if inc_pos is not None:
             pyautogui.moveTo(600,665)  
             pyautogui.click() 
